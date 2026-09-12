@@ -52,7 +52,7 @@ All practical activities were performed using Linux command-line tools.
 
 # Architecture
 
-![Linux Practical Examination Architecture](./architecture.png)
+![Linux Practical Examination Architecture](./images/architecture.png)
 
 # Step 1 — Launch AWS EC2 Instance
 
@@ -69,7 +69,7 @@ All practical activities were performed using Linux command-line tools.
 
 ### Screenshot
 
-![AWS EC2 Instance](./server.png)
+![AWS EC2 Instance](./images/Server.png)
 
 ### Result
 
@@ -102,7 +102,7 @@ ls
 ```
 
 ### Screenshot
-![AWS EC2 Instance,Q1 Basic File Operations](./connection.png)
+![AWS EC2 Instance,Q1 Basic File Operations](./images/connection.png)
 
 ### Result
 
@@ -137,7 +137,7 @@ tree
 
 ### Screenshot
 
-![Q2 File Management](./q2.png)
+![Q2 File Management](./images/q2.png)
 
 ### Result
 
@@ -172,7 +172,7 @@ wc -c student.txt
 
 ### Screenshot
 
-![Q3 File Content Operations](./q3.png)
+![Q3 File Content Operations](./images/q3.png)
 
 ### Result
 
@@ -207,7 +207,7 @@ whoami
 
 ### Screenshot
 
-![Q4 User Management](./q4.png)
+![Q4 User Management](./images/q4.png)
 
 ### Result
 
@@ -242,7 +242,7 @@ getent group linuxbatch
 
 ### Screenshot
 
-![Q5 Group Management](./q5.png)
+![Q5 Group Management](./images/q5.png)
 
 ### Result
 
@@ -280,7 +280,7 @@ ls -l project.txt
 
 ### Screenshot
 
-![Q6 File Permissions](./q6.png)
+![Q6 File Permissions](./images/q6.png)
 
 ### Result
 
@@ -321,7 +321,7 @@ ls-ld public private shared
 
 ### Screenshot
 
-![Q7 Permission Challenge](./q7.png)
+![Q7 Permission Challenge](./images/q7.png)
 
 ### Result
 
@@ -356,9 +356,9 @@ sudo systemctl enable httpd
 
 ### Screenshot
 
-![Q8 Package Management](./q8.png)
+![Q8 Package Management](./images/q8.png)
 
-![Q8 Package Management](./q8(2).png)
+![Q8 Package Management](./images/q8(2).png)
 
 ### Result
 
@@ -394,7 +394,7 @@ curl -I http://localhost
 
 ### Screenshot
 
-![Q9 Apache Web Server Configuration](./q9.png)
+![Q9 Apache Web Server Configuration](./images/q9.png)
 
 ### Result
 
@@ -435,13 +435,13 @@ ps -p 29318
 
 ### Screenshot
 
-![Q10 Process Management](./q10.png)
+![Q10 Process Management](./images/q10.png)
 
-![Q10 Process Management](./q10(2).png)
+![Q10 Process Management](./images/q10(2).png)
 
-![Q10 Process Management](./q10(3).png)
+![Q10 Process Management](./images/q10(3).png)
 
-![Q10 Process Management](./q10(4).png)
+![Q10 Process Management](./images/q10(4).png)
 ### Result
 
 Apache processes were identified, monitored, stopped, started, and verified successfully.
@@ -480,7 +480,7 @@ find . -name "*.txt"
 
 ### Screenshot
 
-![Q11 Search and Text Processing](./q11.png)
+![Q11 Search and Text Processing](./images/q11.png)
 
 ### Result
 
@@ -521,9 +521,9 @@ sudo ss -tulpn
 
 ### Screenshot
 
-![Q12 Linux Networking](./q12.png)
+![Q12 Linux Networking](./images/q12.png)
 
-![Q12 Linux Networking](./q12(2).png)
+![Q12 Linux Networking](./images/q12(2).png)
 
 ### Result
 
